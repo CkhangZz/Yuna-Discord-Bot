@@ -1,5 +1,5 @@
 {
-  "name": "yuna-music",
+  "name": "@CkhangZz/Yuna-Discord-Bot",
   "version": "1.0.0",
   "description": "Yuna Music 🎶 - A cute and professional Discord music bot with Vietnamese & English support, featuring beautiful pink-purple embeds and advanced controls.",
   "main": "index.js",
@@ -63,3 +63,4 @@
     "url": "https://github.com/your-username/yuna-music/issues"
   }
 }
+
