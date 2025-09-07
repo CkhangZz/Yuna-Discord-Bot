@@ -312,11 +312,12 @@ Dự án này được phát hành dưới giấy phép **MIT License**.
 
 <div align="center">
 
-### 💖 Made with love by Yuna Music Team
+### 💖 Made with love by Yunari 😜
 
 **🎶 Cảm ơn bạn đã sử dụng Yuna Music! 💫**
 
 </div>
+
 
 
 
