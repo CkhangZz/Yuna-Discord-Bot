@@ -303,10 +303,10 @@ Dự án này được phát hành dưới giấy phép **MIT License**.
 
 ### 🆘 **Cần trợ giúp?**
 - 📧 **Email**: support@yunamusic.dev
-- 💬 **Discord**: [Support Server](https://discord.gg/support)
+- 💬 **Discord**: [Support Server](https://discord.gg/w9M6YBWdSk)
 
 ### 🌟 **Follow us:**
-- 📱 **GitHub**: [@CkhangZz](https://github.com/CkhangZz/YunaMusic.git)
+- 📱 **GitHub**: [@CkhangZz](https://github.com/CkhangZz/Yuna-Discord-Bot.git)
 
 ---
 
