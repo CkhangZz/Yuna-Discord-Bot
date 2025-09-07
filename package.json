@@ -1,0 +1,65 @@
+{
+  "name": "yuna-music",
+  "version": "1.0.0",
+  "description": "Yuna Music 🎶 - A cute and professional Discord music bot with Vietnamese & English support, featuring beautiful pink-purple embeds and advanced controls.",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/builders": "^1.10.1",
+    "@discordjs/rest": "^2.4.3",
+    "@discordjs/voice": "^0.18.0",
+    "@distube/soundcloud": "^1.3.3",
+    "@distube/spotify": "^1.5.1",
+    "@distube/yt-dlp": "^1.1.3",
+    "@top-gg/sdk": "^3.1.6",
+    "discord.js": "^14.18.0",
+    "distube": "^4.0.4",
+    "express": "^4.21.2",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "mongoose": "^8.10.1",
+    "opusscript": "^0.1.1",
+    "package.json": "^2.0.1",
+    "topgg-autoposter": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "start-direct": "node index.js",
+    "dev": "node --trace-warnings start.js",
+    "setup": "npm install && chmod +x install-deps.sh || echo 'chmod failed - not Linux'",
+    "install-deps": "bash install-deps.sh || echo 'install-deps.sh not available'",
+    "rebuild": "npm rebuild @discordjs/opus node-opus opusscript",
+    "postinstall": "npm run rebuild || echo 'Native rebuild failed, using fallbacks'",
+    "test": "node -e \"console.log('🎵 Yuna Music - Testing configuration...'); const config = require('./config.js'); console.log('✅ Config loaded successfully'); process.exit(0);\"",
+    "check-ffmpeg": "node -e \"const { execSync } = require('child_process'); try { execSync('ffmpeg -version', {stdio: 'pipe'}); console.log('✅ FFmpeg is available'); } catch(e) { console.log('❌ FFmpeg not found:', e.message); }\"",
+    "check-opus": "node -e \"try { require('@discordjs/opus'); console.log('✅ @discordjs/opus available'); } catch(e) { try { require('node-opus'); console.log('✅ node-opus available'); } catch(e2) { try { require('opusscript'); console.log('✅ opusscript available'); } catch(e3) { console.log('❌ No Opus library found'); }}}\"",
+    "fix-opus": "node fix-opus.js",
+    "container-setup": "npm run fix-opus && npm run diagnose",
+    "sillydev-setup": "npm install && npm run fix-opus",
+    "sillydev-start": "npm run sillydev-setup && npm start",
+    "diagnose": "npm run test && npm run check-ffmpeg && npm run check-opus"
+  },
+  "author": "Umut Bayraktar (CkhangZz)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "yuna",
+    "sillydev",
+    "container",
+    "vietnamese",
+    "pink-purple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/yuna-music.git"
+  },
+  "homepage": "https://github.com/your-username/yuna-music#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/yuna-music/issues"
+  }
+}
