@@ -18,7 +18,6 @@
     "libsodium-wrappers": "^0.7.15",
     "mongoose": "^8.10.1",
     "opusscript": "^0.1.1",
-    "package.json": "^2.0.1",
     "topgg-autoposter": "^2.0.2"
   },
   "scripts": {
@@ -34,8 +33,6 @@
     "check-opus": "node -e \"try { require('@discordjs/opus'); console.log('✅ @discordjs/opus available'); } catch(e) { try { require('node-opus'); console.log('✅ node-opus available'); } catch(e2) { try { require('opusscript'); console.log('✅ opusscript available'); } catch(e3) { console.log('❌ No Opus library found'); }}}\"",
     "fix-opus": "node fix-opus.js",
     "container-setup": "npm run fix-opus && npm run diagnose",
-    "sillydev-setup": "npm install && npm run fix-opus",
-    "sillydev-start": "npm run sillydev-setup && npm start",
     "diagnose": "npm run test && npm run check-ffmpeg && npm run check-opus"
   },
   "author": "Umut Bayraktar (CkhangZz)",
@@ -56,11 +53,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/yuna-music.git"
+    "url": "https://github.com/CkhangZz/Yuna-Discord-Bot.git"
   },
-  "homepage": "https://github.com/your-username/yuna-music#readme",
+  "homepage": "https://github.com/CkhangZz/Yuna-Discord-Bot#readme",
   "bugs": {
-    "url": "https://github.com/your-username/yuna-music/issues"
+    "url": "https://github.com/CkhangZz/Yuna-Discord-Bot/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
-
