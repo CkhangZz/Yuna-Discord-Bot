@@ -1,7 +1,7 @@
 # 🎶 Yuna Music - Cute Discord Music Bot
 
 [![Yuna Music](https://img.shields.io/badge/Yuna%20Music-v1.0.0-ff66cc?style=for-the-badge&logo=discord)](https://discord.com/oauth2/authorize?client_id=1311707212359663737)
-![Language](https://img.shields.io/badge/Languages-Vietnamese%20%7C%20English-blue?style=for-the-badge)
+[![Language](https://img.shields.io/badge/Languages-Vietnamese%20%7C%20English-blue?style=for-the-badge)](languages)
 ![Node.js](https://img.shields.io/badge/Node.js-22.x-green?style=for-the-badge&logo=node.js)
 
 > **🌟 Một bot nhạc Discord dễ thương với giao diện màu hồng tím và hỗ trợ tiếng Việt!**  
@@ -317,4 +317,5 @@ Dự án này được phát hành dưới giấy phép **MIT License**.
 **🎶 Cảm ơn bạn đã sử dụng Yuna Music! 💫**
 
 </div>
+
 
