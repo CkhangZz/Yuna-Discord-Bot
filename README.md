@@ -88,7 +88,7 @@ node index.js
 ### 🎵 **Phát nhạc - Music Playback**
 | Lệnh | Mô tả | Ví dụ |
 |------|-------|-------|
-| `/play normal [tên bài]` | Phát nhạc từ tên hoặc link | `/play normal Chúng ta của hiện tại` |
+| `/play [tên bài]` | Phát nhạc từ tên hoặc link | `/play normal Chúng ta của hiện tại` |
 | `/play playlist [tên]` | Phát playlist đã lưu | `/play playlist My Favorites` |
 | `/search [tên bài]` | Tìm và chọn nhạc | `/search vpop 2024` |
 
@@ -317,6 +317,7 @@ Dự án này được phát hành dưới giấy phép **MIT License**.
 **🎶 Cảm ơn bạn đã sử dụng Yuna Music! 💫**
 
 </div>
+
 
 
 
