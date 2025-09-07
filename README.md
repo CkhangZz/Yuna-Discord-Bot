@@ -268,7 +268,7 @@ language: "en"  // English
 
 ## 🤝 Đóng góp - Contributing
 
-Chúng tôi rất hoan nghênh mọi đóng góp! 
+Đóng góp nếu bạn phát hiện lổi hay muốn cải thiện tính năng nào đó! 
 
 ### 📝 **Cách đóng góp:**
 1. **Fork** repository này
@@ -317,6 +317,7 @@ Dự án này được phát hành dưới giấy phép **MIT License**.
 **🎶 Cảm ơn bạn đã sử dụng Yuna Music! 💫**
 
 </div>
+
 
 
 
